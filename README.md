@@ -1,2 +1,3 @@
 # mi-web
-Trabajo colaborativo, crear un sitio web para ramo taller de desarrollo web frond end
+Trabajo colaborativo, crear un sitio web.
+Para el ramo de taller de desarrollo web frond-end
