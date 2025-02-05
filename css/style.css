@@ -1,0 +1,208 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo de encabezado */
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo de la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+/* Sección de bienvenida */
+.bienvenida {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e2e2e2;
+}
+
+.bienvenida h2 {
+    margin: 0 0 10px;
+}
+
+.bienvenida p {
+    margin: 0 0 20px;
+}
+
+/* Sección de quienes somos */
+.quienes-somos {
+    padding: 40px 20px;
+}
+
+.quienes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    gap: 30px;
+    padding: 20px;
+}
+
+.empresa-img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.empresa-texto {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.empresa-texto h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.empresa-texto p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Sección de valores */
+.valores {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 40px;
+}
+
+.valores ul {
+    padding-left: 20px;
+}
+
+.valores li {
+    margin-bottom: 10px;
+}
+
+/* Sección de servicios */
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #fff;
+}
+
+.servicio {
+    text-align: center;
+    width: 30%;
+}
+
+.servicio h3 {
+    margin: 0 0 10px;
+}
+
+.servicio p {
+    margin: 0;
+}
+
+.servicio img {
+    width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 300px; /* Establece un tamaño máximo */
+    margin-top: 10px; /* Añade espacio encima de la imagen */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo de pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Estilos de la página de contacto */
+.contacto-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 50px;
+}
+
+.form-container {
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #555;
+}
+
+.image-container {
+    width: 40%;
+}
+
+.contact-image {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
